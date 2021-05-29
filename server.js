@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 // from a cloud data store
 const mockEvents = {
     events: [
-        { title: 'First Event', id: 1, description: 'This is first event' },
-        { title: 'Second Event', id: 2, description: 'This is second event' }
+        { title: 'First Event', id: 1, description: 'This is first event!' },
+        { title: 'Second Event', id: 2, description: 'This is second event!' }
     ]
 };
 
